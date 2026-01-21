@@ -1,4 +1,4 @@
 package tanpadi.messagesender;
 
-public class Main {
+public class Messagesender {
 }
