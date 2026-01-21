@@ -1,4 +1,9 @@
 package dengandi.calculator;
 
-public class Addition {
+public class Addition implements Operation {
+
+    @Override
+    public int execute(int a, int b) {
+        return a + b;
+    }
 }

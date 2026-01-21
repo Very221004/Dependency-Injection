@@ -1,4 +1,5 @@
 package dengandi.notifier;
 
-public class Notifier {
+public interface Notifier {
+    void notifyUser(String name);
 }

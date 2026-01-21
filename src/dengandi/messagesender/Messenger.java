@@ -1,4 +1,5 @@
 package dengandi.messagesender;
 
-public class Messenger {
+public interface Messenger {
+    void send(String message);
 }

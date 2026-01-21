@@ -1,4 +1,9 @@
 package dengandi.messagesender;
 
-public class TelegramMessenger {
+public class TelegramMessenger implements Messenger {
+
+    @Override
+    public void send(String message) {
+        System.out.println("[Telegram] Sending: " + message);
+    }
 }
